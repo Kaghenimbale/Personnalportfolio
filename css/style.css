@@ -64,3 +64,39 @@ font-size: 1.5em;
 background-color: cadetblue;
 height: 8vh;
 }
+#social-media{
+    background-color: rgb(33, 33, 71);
+    height: 70vh;
+    color: white;
+    text-align: center;
+    padding-top: 40vh;
+}
+.social-media-header h3{
+    font-size: 4em;
+}
+.social-media-header p{
+    font-size: 1.3em;
+}
+#social-media-container{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+#social-media-container a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+footer{
+    background-color: rgb(83, 78, 78);
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6vh;
+}
+footer p{
+    font-size: 1.5em;
+}
