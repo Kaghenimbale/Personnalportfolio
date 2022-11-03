@@ -1,9 +1,7 @@
 *{
     margin:0;
 }
-body{
-    
-}
+
 #navbar{
     background-color: rgb(104, 36, 36);
     color: white;
@@ -21,6 +19,7 @@ body{
     list-style: none;
 }
 #navbar a{
+    font-size: 1.2em;
     color: white;
     text-decoration: none;
 }
@@ -99,4 +98,7 @@ footer{
 }
 footer p{
     font-size: 1.5em;
+}
+@media only screen and (max-width:768px){
+    .project-container{grid-template-columns : 1fr 1fr;}
 }
