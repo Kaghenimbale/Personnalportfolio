@@ -1,0 +1,18 @@
+#navbar{
+    background-color: rgb(104, 36, 36);
+    color: white;
+}
+#welcome-section{
+    background-color: rgb(89, 86, 86);
+    color: white;
+    height: 60vh;
+    text-align: center;
+    padding-top: 35vh;
+}
+#welcome-section h1{
+    font-size: 50px;
+}
+#welcome-section h3{
+    font-size: 25px;
+    font-style: italic;
+}
